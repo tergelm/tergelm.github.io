@@ -1,0 +1,151 @@
+body {
+	margin: 0;
+	background-color: #f2f2f2;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  height: 50px;
+}
+#menu_items {
+	float: right;
+	font-size: 20px;
+}
+.name {
+	float: left;
+	padding-left: 20px;
+	margin-top: 10px;
+	color: #262626;
+}
+a {
+	display: inline-block;
+	padding: 5px;
+	background-color: white;
+	border: none;
+}
+li {
+	display: inline-block;
+}
+li a {
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: #666;
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-bottom: 3px solid transparent;
+  margin-top: 10px;
+}
+
+li a:hover {
+  /*background-color: #ffdb4d;*/
+  border-bottom: 3px solid #ffdb4d;
+}
+li a:active {
+	background-color: #111;
+	border-bottom: 3px solid white;
+}
+#bod {
+	margin-top: 65px;
+}
+
+#intro {
+	/*border-style: solid;
+	border-width: 3px;
+	border-color: black;*/
+	border-radius: 6px;
+	width: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#intro p {
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: 23px;
+}
+#image {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	/*max-width: 30%;
+	margin-top: 20px;*/
+	text-align: center;
+}
+.navbar {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin-bottom: 100px;
+}
+#quizcont {
+	border-radius: 6px;
+	border: 1px solid #ffdb4d;
+	width: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-top: 100px;
+	background-color: white;
+}
+.row {
+  display: flex;
+  margin-top: 2%;
+}
+
+.column {
+  flex: 50%;
+  margin: 2%;
+  background-color: white;
+  border-radius: 15px;
+  border-width: 0;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  border: 2px solid #ffdb4d;
+}
+#webdes {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	text-align: center;
+	font-size: 2rem;
+	color: #4d4d4d;
+	margin-top: 3.5%;
+}
+.column p {
+	margin-left: 4%;
+	margin-right: 4%;
+}
+#vid {
+	width: 90%;
+	margin-left: 4%;
+	margin-right: auto;
+}
+#image {
+	width: 90%;
+	margin-left: 4%;
+
+}
+#image img {
+	width: 100%;
+}
+#advice {
+	width: 80%;
+	margin-top: 5%;
+}
+#advice img {
+	display: block;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
